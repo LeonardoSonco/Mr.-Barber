@@ -1,0 +1,22 @@
+footer {
+	text-align: center;
+	background: black;
+	padding: 40px 0;
+}
+
+.linha{
+	width: 100%;
+	background-color: rgb(31, 31, 31);
+	height: 1px;
+	margin-bottom: 4rem;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+.footer__img{
+	width: 300px;
+}

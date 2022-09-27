@@ -1,0 +1,104 @@
+.servicos {
+	padding: 3em 0;
+	color: white;
+}
+
+.servicos__titulo{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+	
+}
+
+.servicos__produtos {
+	width: 90%;
+	margin: 0 auto;
+	padding: 50px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.servicos__produtos li {
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	
+}
+
+.item:hover {
+	border-color: #ffffff;
+}
+
+.item:active {
+	border-color: #088C19;	
+}
+
+.item:hover h2 {
+	font-size: 31.4px;
+}
+
+.servicos__produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.item__barba{
+	background-image: url("../Img/barbaFundo.jpg");
+}
+
+.item__sobrancelha{
+	background-image: url("../Img/sobrancelhaFundo.jpg");
+}
+
+.item__cabelo{
+	background-image: url("../Img/cabeloFundo.jpg");
+}
+
+
+.item__cabeloBarba{
+	background-image: url("../Img/cabelobarbaFundo.jpg");
+}
+
+.video {
+	width: 560px;
+	margin: 2em auto;
+}
+
+@media screen and (max-width: 1024px){
+
+	.servicos__produtos {
+		display: block;
+		width: 100%;
+		
+		
+	}
+	
+	.servicos__produtos li {
+		
+		width: 70%;
+		vertical-align: top;
+		margin: 2rem auto;
+		padding: 30px 20px;	
+	}
+
+	.video {
+		width: 90%;
+		margin: 2em auto;
+	}
+	
+}

@@ -1,0 +1,20 @@
+@import url("Css/header.css");
+@import url("Css/principal.css");
+@import url("Css/servicos.css");
+@import url("Css/mapa.css");
+@import url("Css/contato.css");
+@import url("Css/footer.css");
+@import url("Css/animacao.css");
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-image: url("Img/fundoTeste.jpg");
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}

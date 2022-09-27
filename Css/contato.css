@@ -1,0 +1,106 @@
+
+.contato{
+    padding: 10% 0 5% 0;
+    background-color: black;
+    color: white;
+}
+
+
+.contato__titulo{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+.contato__explicacao{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+
+}
+
+form {
+	margin: 40px auto;
+    text-align: center;
+}
+
+form  fieldset label, form legend {
+	display: block;
+    
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+    margin: 20px auto;
+	padding: 10px 25px;
+	width: 50%;
+}
+.input-telefone, .input-email{
+    display: inline;
+    margin: 20px 1%;
+	padding: 10px 25px;
+	width: 22%;
+}
+
+
+.contato__lbl-mensagem{
+    display: block;
+}
+.contato__lbl{
+   display: flex;
+   justify-content: space-around;
+    margin: 0 20%;
+}
+
+.checkbox {
+	margin: 20px 0;
+    display: block;
+}
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.05);
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+@media screen and (max-width: 1024px){
+
+
+
+	.input-telefone, .input-email{
+		
+		display: block;
+    	margin: 20px auto;
+		padding: 10px 25px;
+		width: 50%;
+	}
+}
+	

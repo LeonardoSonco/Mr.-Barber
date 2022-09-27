@@ -1,0 +1,72 @@
+
+.principal {
+	padding: 3em 0;
+	border-top: 10px solid black;
+	color: white;
+
+}
+.principal__apresentacao{
+	margin: 0 0 2rem 0;
+	text-align: center;
+}
+.principal__titulo{
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.principal__tituloComplemento{
+	font-size: 16px;
+	
+}
+
+.principal__conteudo{
+	display: flex;
+	justify-content: space-around;
+	margin: 0 22% 2% 27%;
+	
+}
+.principal__sobre {
+	font-size: 20px;
+	padding: 1rem;
+	line-height: 1.5rem;
+	
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.img__sobre {
+	width: 500px;
+	float: left;
+	
+	margin: 0 20px 20px 0;
+}
+
+
+@media screen and (max-width: 1024px){
+   
+	.principal__conteudo{
+		display: flex;
+		justify-content: flex-start;
+		margin: auto 2rem;
+		text-align: justify;
+	}
+
+	.principal__sobre {
+		font-size: 16px;
+		font-weight: 700;
+		padding: 1rem;
+		line-height: 1.5rem;
+	}
+
+	.img__sobre {
+		width: 50%;
+		
+	}
+}
